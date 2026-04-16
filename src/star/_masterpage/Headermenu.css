@@ -1,0 +1,24 @@
+.menu {
+   display: flex;
+   flex-direction: column;
+   /* align-items: flex-start; */
+    
+  height: 50vh; /* Full viewport height for vertical alignment */
+
+}
+
+.h1 {
+   flex-direction: column;
+   align-self: center;
+}
+
+.menu-list ul {
+   display: flex;
+   flex-direction: row;
+}
+
+.menu-item {
+  flex-direction: row;
+  /* Add styles for the menu items */ 
+  padding: 5px;
+}

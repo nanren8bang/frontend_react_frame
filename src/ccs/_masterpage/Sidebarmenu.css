@@ -1,0 +1,34 @@
+ 
+.sidemenu {
+   display: flex;
+   flex-direction: column;
+   /* align-items: flex-start; */
+    
+  height: 100vh; /* Full viewport height for vertical alignment */
+
+}
+
+.h1 {
+   flex-direction: column;
+   align-self: center;
+}
+
+.sidemenu-list ul{
+   flex-direction: column;
+   align-self: flex-start;
+     
+    justify-content: space-between;
+    border: 1px solid #000;
+
+
+    
+  /*background-color: #333;*/
+  color: white;
+
+}
+
+.sidemenu-item {
+    
+  /* Add styles for the menu items */ 
+  padding: 5px;
+}
